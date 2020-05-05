@@ -17,7 +17,7 @@ body{
 }
 
 #main img{
-    height: 300px;
+    height: 285px;
 
 }
 #header{
@@ -27,13 +27,13 @@ body{
 
 #header img{
 
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
 }
 #footer {
     background-color: royalblue;
     border-bottom: darkblue;
     border-top: darkblue;
-    padding: 3em;
+    padding: 5em;
     margin-top: auto;
 }
