@@ -24,16 +24,57 @@ body{
     font-size: medium;
     font-family: "Bookman Old Style";
 }
+#picAdv{
+    width:300px;
+    overflow:hidden;
+    text-align:center;
+}
+
 
 #header img{
 
     height: 70px;
     width: 70px;
+
 }
+/*navigation menu*/
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 65px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+/*hover */
+#nav li a:hover {
+    background-color: #111;
+}
+
+#nav .active {
+    background-color: royalblue;
+}
+
 #footer {
+    width: 100%;
     background-color: royalblue;
     border-bottom: darkblue;
     border-top: darkblue;
     padding: 5em;
     margin-top: auto;
+    border-top: darkblue;
 }
