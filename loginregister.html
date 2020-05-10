@@ -2,11 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>log in/Register</title>+
+    <title>log in/Register</title>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="JS/script.js"></script>
+
 </head>
 <body>
+<div id="header">
+    <h3><img src="image/logo.png" /><br>
+        The Pet Meal
+    </h3>
+    <div id = "nav">
+        <ul>
+            <li><a href="index.html" ><b>Home</b></a></li>
+            <li><a href="shopbypet.html"><b>Shop by Pet</b></a></li>
+            <li><a href="storelocation.html"><b>Store Location</b></a></li>
+            <li><a href="products.html" class="active"><b>Products</b></a></li>
+            <li><a href="loginregister.html"><b>Log In/Register</b></a></li>
+            <li><a href="checkout.html" class="active"><b>Checkout</b></a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <div class="hero">
+             <div class="form-box">
+            <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+                 <form id="login" class="input-group">
+                     <input type="text" class="input-field" placeholder="User Id"
+                            required>
+                     <input type="text" class="input-field" placeholder="Enter Password"
+                            required>
+                     <input type="checkbox" class="check-box"><span>Remember Password</span>
+                     <button type="submit" class="submit-btn">Log in</button>
+                 </form>
+                 <form id="register" class="input-group">
+                     <input type="text" class="input-field" placeholder="User Id"
+                            required>
+                     <input type="email" class="input-field" placeholder="Email Id"
+                            required>
+                     <input type="text" class="input-field" placeholder="Enter Password"
+                            required>
+
+                     <input type="checkbox" class="check-box"><span>I agree to the terms & condition</span>
+                     <button type="submit" class="submit-btn">Register</button>
+                 </form>
+
+
+    </div>
+
+
+
+        </div>
+</div>
+
+
+
 <div class="footer">
     <div class="inner-footer">
         <div class="footer-items">

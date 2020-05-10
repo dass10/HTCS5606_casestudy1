@@ -8,6 +8,96 @@ body{
     display: flex;
     flex-direction: column;
 }
+/*log in and registration page*/
+
+.form-box{
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    margin: 6%auto;
+    background: floralwhite;
+    border-radius: 30px;
+    padding: 5px;
+    overflow: hidden;
+    background: linear-gradient(to right, cornflowerblue,beige);
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px blue;
+    border-radius: 30px;
+
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-family: "Bookman Old Style";
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, blue,beige);
+    border-radius: 20px ;
+    transition: .5s;
+}
+.input-group{
+    top:150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    font-family: "Bookman Old Style";
+
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    font-family: "Bookman Old Style";
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid royalblue;
+    outline: none;
+    background: ghostwhite;
+}
+.submit-btn{
+    width: 85%;
+    font-family: "Bookman Old Style";
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, blue,beige);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: black;
+    font-size: 12px;
+    font-family: "Bookman Old Style";
+    bottom: 65px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
+
+
 
 #main{
     width: 100%;
