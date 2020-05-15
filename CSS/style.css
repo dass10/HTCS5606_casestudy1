@@ -13,7 +13,7 @@ body{
 
 .form-box{
     width: 580px;
-    height: 580px;
+    height: 560px;
     margin: 6%auto;
 
     border-radius: 30px;
@@ -21,6 +21,8 @@ body{
     overflow: hidden;
     background: linear-gradient(to right, royalblue,blue);
 }
+
+
 .button-box{
     width: 250px;
     margin: 35px auto;
@@ -51,6 +53,7 @@ body{
 .input-group{
     top:160px;
     width: 300px;
+    text-align: center;
     transition: .5s;
     font-family: "Bookman Old Style";
 
