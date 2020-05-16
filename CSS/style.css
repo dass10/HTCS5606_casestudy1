@@ -11,7 +11,19 @@ body{
 }
 
 
+
 /*log in and registration page*/
+#page1 #main div{
+    background-color: cornflowerblue;
+    width: auto;
+    height: auto;
+    border: 20px solid midnightblue;
+    padding: 50px;
+    margin: auto;
+    font-family: "Bookman Old Style";
+    text-align: left;
+}
+
 
 .form-box{
     width: 580px;
@@ -104,17 +116,6 @@ span{
     left: 450px;
 }
 
-
-
-#main{
-    width: 100%;
-
-    text-align: center;
-    position: relative;
-}
-
-
-
 #header{
     font-size: medium;
     font-family: "Bookman Old Style";
@@ -197,9 +198,12 @@ span{
     }
 
 
-#headerImage{
-    width: 100%;
+#borderimg{
+    width: auto;
     font-size:0;
+    border: 10px solid brown;
+    padding: 15px;
+    border-image: 10 stretch;
 }
 #header img{
     margin: 0px;
