@@ -1,23 +1,24 @@
 body{
     background-color: white;
     margin: 0;
+
     font-family: "Bookman Old Style";
     line-height: 1;
     width: 100%;
     min-height: 80%;
     display: flex;
     flex-direction: column;
-
 }
+
+
 /*log in and registration page*/
 
 .form-box{
     width: 580px;
     height: 560px;
     margin: 6%auto;
-
+    padding: inherit;
     border-radius: 30px;
-    padding: 5px;
     overflow: hidden;
     background: linear-gradient(to right, royalblue,blue);
 }
@@ -51,8 +52,10 @@ body{
     transition: .5s;
 }
 .input-group{
-    top:160px;
-    width: 300px;
+    top:170px;
+    padding-left: 110px;
+    width: 350px;
+
     text-align: center;
     transition: .5s;
     font-family: "Bookman Old Style";
@@ -66,9 +69,11 @@ body{
     border-left: 0;
     border-top: 0;
     border-right: 0;
+    border-radius: 30px;
+    text-align: center;
     border-bottom: 2px solid lightblue;
     outline: none;
-    background: ghostwhite;
+    background: whitesmoke;
 }
 .submit-btn{
     width: 85%;
