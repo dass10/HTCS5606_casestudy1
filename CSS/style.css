@@ -24,6 +24,25 @@ body{
     text-align: left;
 }
 
+#page3 #header img{
+    border-radius: 35%;
+}
+
+#page3 div.polaroid {
+    width: 20%;
+    background-color: white;
+    font-family: "Bookman Old Style";
+    font-size: small;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 35px;
+}
+
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
 
 .form-box{
     width: 580px;
