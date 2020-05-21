@@ -14,5 +14,15 @@ function login(){
     z.style.left = "0px";
 }
 
+function register (){
+    window.open("register.html", "_self");
+}
+
+function login(){
+    window.open("loginregister.html", "_self");
+}
+
+
+
 
 

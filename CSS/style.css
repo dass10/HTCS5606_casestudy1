@@ -47,13 +47,13 @@ body{
 
 }
 /* products page*/
-#page6 .wrapper{
+#page4 .wrapper{
     width: 1290px;
     margin: 20px auto;
     padding: 20px;
 }
 
-#page6 #main .wrapper h1{
+#page4 #main .wrapper h1{
     display: inline-block;
     background-color: royalblue;
     color: black;
@@ -64,28 +64,28 @@ body{
     float: left;
     border-radius: 50px;
 }
-#page6 .clear{
+#page4 .clear{
     clear: both;
 }
-#page6 .items{
+#page4 .items{
     display: block;
     margin: 15px 0;
 }
 
-#page6  .item{
+#page4  .item{
     background-color: whitesmoke;
-    float: left;
+    float: right;
     margin: 10px 10px 10px 10px;
-    width: 205px;
+    width: 190px;
     padding: 10px;
 }
-#page6  .item img{
+#page4  .item img{
     display: block;
     margin: auto;
 
 }
 
-#page6 #main .wrapper .item h2{
+#page4 #main .wrapper .item h2{
     font-family: "Bookman Old Style";
     font-size: 12px;
     display: inline-block;
@@ -94,10 +94,6 @@ body{
     padding: 0 0 6px 0;
 
 }
-
-
-
-
 
 
 div.container {
@@ -207,6 +203,29 @@ span{
     text-align:center;
 }
 /*logo image*/
+
+/*checkout page*/
+#page6 #header{
+    background-color: cornflowerblue;
+    font-family: "Bookman Old Style";
+}
+#header.glow{
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    -webkit-animation: ease-in-out;
+    -moz-animation: ease-in-out;
+    animation: ease-in-out;
+}
+
+#header @-webkit-keyframes glow {
+    from {text-shadow: 0 0 10px steelblue, 0 0 20px whitesmoke, 0 0 30px deepskyblue, 0 0 40px mediumblue,
+    0 0 50px royalblue, 0 0 60px midnightblue, 0 0 70px slateblue;}
+    to {text-shadow: 0 0 12px aqua, 0 0 40px darkblue;}
+
+}
 
 
 /*navigation menu*/
