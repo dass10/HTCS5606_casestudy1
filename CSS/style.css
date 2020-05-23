@@ -1,7 +1,7 @@
 body{
     background-color: white;
     margin: 0;
-
+    padding: 0;
     font-family: "Bookman Old Style";
     line-height: 1;
     width: 100%;
@@ -9,10 +9,27 @@ body{
     display: flex;
     flex-direction: column;
 }
+/*search bar*/
+.topnav {
+    overflow: hidden;
+
+    border-radius: 5px;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 7px;
+    margin-top: 8px;
+    margin-right: 50px;
+    border: none;
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+
+}
 
 
 
-/*log in and registration page*/
 #page1 #main div{
     background-color: cornflowerblue;
     width: auto;
@@ -23,6 +40,11 @@ body{
     font-family: "Bookman Old Style";
     text-align: left;
 }
+/*shop by pet page*/
+#page2 #main {
+
+}
+
 /*store location page*/
 #page3 #header img{
     border-radius: 35%;
@@ -226,6 +248,39 @@ span{
     to {text-shadow: 0 0 12px aqua, 0 0 40px darkblue;}
 
 }
+#page6 .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#page6  .main img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+#page6 #animation{
+    position: relative ;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+}
+
+@keyframes animation {
+    0% {background-color: cornflowerblue; left: 0px; top: 0px; font-size: 15px;}
+    20% {background-color: royalblue; left: 400px; top: 0px; font-size: 50px;}
+    40% {background-color: aqua; left: 400px; top: 400px; font-size: 100px;}
+    60% {background-color: darkblue; left: 0px; top: 400px; font-size: 50px;}
+    80% {background-color: deepskyblue; left: 0px; top: 0px; font-size: 15px;}
+    100% {background-color: dodgerblue;}
+}
+
+
 
 
 /*navigation menu*/
@@ -330,3 +385,4 @@ span{
 #img5{
     width: 17.43%;
 }
+
