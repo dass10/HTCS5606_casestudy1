@@ -155,7 +155,6 @@ div.container {
 #btn{
     top: 0;
     left: 0;
-
     width: 80px;
     height: 100%;
     background: linear-gradient(to right, whitesmoke,royalblue);
@@ -225,63 +224,6 @@ span{
     overflow:hidden;
     text-align:center;
 }
-/*logo image*/
-
-/*checkout page*/
-#page6 #header{
-    background-color: cornflowerblue;
-    font-family: "Bookman Old Style";
-}
-#header.glow{
-    font-family: "Bookman Old Style";
-    font-size: 20px;
-    color: whitesmoke;
-    text-align: center;
-    margin: 0px;
-    -webkit-animation: ease-in-out;
-    -moz-animation: ease-in-out;
-    animation: ease-in-out;
-}
-
-#header @-webkit-keyframes glow {
-    from {text-shadow: 0 0 10px steelblue, 0 0 20px whitesmoke, 0 0 30px deepskyblue, 0 0 40px mediumblue,
-    0 0 50px royalblue, 0 0 60px midnightblue, 0 0 70px slateblue;}
-    to {text-shadow: 0 0 12px aqua, 0 0 40px darkblue;}
-
-}
-#page6 .container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-#page6  .main img{
-    width: 100%;
-    height: auto;
-}
-
-
-
-#page6 #animation{
-    position: relative ;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    background-color: cornflowerblue;
-    animation-name: animation;
-    animation-duration: 5s;
-    animation-iteration-count: 2;
-}
-
-@keyframes animation {
-    0% {background-color: cornflowerblue; left: 0px; top: 0px; font-size: 15px;}
-    20% {background-color: royalblue; left: 400px; top: 0px; font-size: 50px;}
-    40% {background-color: aqua; left: 400px; top: 400px; font-size: 100px;}
-    60% {background-color: darkblue; left: 0px; top: 400px; font-size: 50px;}
-    80% {background-color: deepskyblue; left: 0px; top: 0px; font-size: 15px;}
-    100% {background-color: dodgerblue;}
-}
-
-
 
 
 /*navigation menu*/
@@ -352,7 +294,7 @@ span{
             line-height: 15px;
     }
 
-
+/*home page header image*/
 #borderimg{
     width: auto;
     font-size:0;
