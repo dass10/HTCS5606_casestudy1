@@ -4,6 +4,8 @@
     margin: 50px;
     border-style: groove;
     height:250px;
+    border-color: royalblue;
+    border-radius: 10px;
 }
 
 .product img{
@@ -16,7 +18,7 @@
 }
 
 .cartInput {
-    width:40px;
+    width:50px;
 }
 
 /* Invoice */
@@ -35,7 +37,7 @@
 
 
 #voice-content {
-    background-color: #fefefe;
+    background-color: red;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;

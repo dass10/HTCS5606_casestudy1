@@ -57,12 +57,13 @@ body{
     width: 300px;
     background-color: white;
     font-family: "Bookman Old Style";
-    text-align: center;
+    text-align: inherit;
     font-size: small;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20px auto;
-    padding: 20px;
+    margin: 40px;
+    padding: 30px;
     border-radius: 35px;
+    display: inline-block;
 }
 #page3 #main img{
    width: 40%;
@@ -118,7 +119,7 @@ body{
 
 }
 
-
+/*login/registration page*/
 div.container {
     text-align: center;
     padding: 10px 20px;
