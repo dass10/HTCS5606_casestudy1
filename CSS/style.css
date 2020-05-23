@@ -42,7 +42,12 @@ body{
     text-align: left;
 }
 /*shop by pet page*/
-#page2 #main {
+#page2 #main img{
+    display: inline-block;
+    width: 415px;
+    height: 500px;
+    margin: 15px;
+
 
 }
 
@@ -62,7 +67,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 40px;
     padding: 30px;
-    border-radius: 35px;
+    border-radius: 30px;
     display: inline-block;
 }
 #page3 #main img{
@@ -260,6 +265,7 @@ span{
 #nav .active {
     background-color: royalblue;
 }
+
 /*footer contains*/
 .footer {
     background-color: royalblue;
@@ -294,6 +300,10 @@ span{
             text-align: justify;
             line-height: 15px;
     }
+        .footer-items img{
+            width: 40px;
+            height: auto;
+        }
 
 /*home page header image*/
 #borderimg{
