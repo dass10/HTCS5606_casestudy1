@@ -24,7 +24,7 @@
     </h3>
     <div id = "nav">
         <ul>
-            <li><a href="index.html" ><b>Home</b></a></li>
+            <li><a href="index.php" ><b>Home</b></a></li>
             <li><a href="shopbypet.html"><b>Shop by Pet</b></a></li>
             <li><a href= "storelocation.html"><b>Store Location</b></a></li>
             <li><a href="products.html" class="active"><b>Products</b></a></li>
